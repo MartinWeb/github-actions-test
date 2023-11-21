@@ -1,9 +1,10 @@
 name: Release test
 
 on:
-  create:
+  push:
     tags:
-      - v1.**
+      - v*
+      - "!v*-alpha*"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
