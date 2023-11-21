@@ -16,7 +16,8 @@
     "url": "https://github.com/MartinWeb/github-actions-test/issues"
   },
   "homepage": "https://github.com/MartinWeb/github-actions-test#readme",
-  "dependencies": {
-    "lerna": "^3.22.1"
-  }
+  "workspaces": [
+    "packages/first",
+    "packages/second"
+  ]
 }
