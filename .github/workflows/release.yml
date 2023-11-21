@@ -1,0 +1,14 @@
+name: Publish new version
+
+on:
+  push:
+    tags:
+      - v*
+      - "!v*-alpha*"
+
+jobs:
+  publish:
+    steps:
+      - name: Release
+        run: |
+          echo "Actions launched ! New version incoming"
