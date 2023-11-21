@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Create new pre release
-        run: npx lerna version prerelease --exact --force-publish --yes --create-release --conventional-commits
+        run: npx lerna version prerelease --exact --force-publish --yes --create-release github --conventional-commits
