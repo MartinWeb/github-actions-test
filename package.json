@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/MartinWeb/github-actions-test#readme",
   "dependencies": {
-    "lerna": "3.22.1"
+    "lerna": "^3.22.1"
   }
 }
