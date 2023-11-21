@@ -8,7 +8,7 @@ on:
 
 jobs:
   publish:
+    runs-on: ubuntu-latest
     steps:
       - name: Release
-        run: |
-          echo "Actions launched ! New version incoming"
+        run: echo Actions launched ! New version incoming
