@@ -20,4 +20,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo New release $GITHUB_REF_NAME incoming !
+        run: echo New release ${GITHUB_REF_NAME%?} incoming !
