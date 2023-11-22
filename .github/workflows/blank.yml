@@ -5,6 +5,9 @@ on:
     inputs:
       version:
         required: true
+        options: 
+        - v2.2.0
+        - v1.0.0
 
 jobs:
   build:
